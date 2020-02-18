@@ -11,7 +11,7 @@ body {
 /* --------------------------- HEADER section */
 
 .header {
-    background: url(/img/slider_img/bg_header_743.png) no-repeat;
+    background: url('/site_b1nary/img/slider_img/bg_header_743.png') no-repeat;
     padding: 165px 0 115px;
     margin: 0;
 }
@@ -197,15 +197,15 @@ ul.portfolio__list {
 }
 
 .card_one .card__img {
-    background: url(/img/about/about__card_one.png) no-repeat center;
+    background: url('/site_b1nary/img/about/about__card_one.png') no-repeat center;
 }
 
 .card_two .card__img {
-    background: url(/img/about/about__card_two.png) no-repeat center;
+    background: url('/site_b1nary/img/about/about__card_two.png') no-repeat center;
 }
 
 .card_three .card__img {
-    background: url(/img/about/about__card_three.png) no-repeat center;
+    background: url('/site_b1nary/img/about/about__card_three.png') no-repeat center;
 }
 
 
@@ -279,7 +279,7 @@ ul.portfolio__list {
 /* --------------------PARTNERS--------------------------------- */
 
 .content__partners {
-    background: url(/img/partners/partners_bg.png) no-repeat left bottom;
+    background: url('/site_b1nary/img/partners/partners_bg.png') no-repeat left bottom;
     padding-top: 100px;
     padding-bottom: 105px;
 }
@@ -434,7 +434,7 @@ button {
     background-color: #fff;
     border: 1px solid red;
     cursor: pointer;
-    background: url(/img/contacts/ico_social.png) no-repeat
+    background: url('/site_b1nary/img/contacts/ico_social.png') no-repeat
 }
 
 .present__icons .contact__fb {
@@ -458,7 +458,7 @@ button {
 }
 
 .footer__logo {
-    background: url(/img/footer/footer_logo.png) no-repeat;
+    background: url('/site_b1nary/img/footer/footer_logo.png') no-repeat;
     width: 122px;
     height: 78px;
     margin: 0 auto;
