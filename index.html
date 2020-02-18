@@ -30,18 +30,10 @@
     <nav class="menu">
         <div class='container'>
             <ul class="menu__list">
-                <a href="#" class='list__item item_active'>
-                    <li>home</li>
-                </a>
-                <a href="#" class='list__item'>
-                    <li>about us</li>
-                </a>
-                <a href="#" class='list__item'>
-                    <li>portfolio</li>
-                </a>
-                <a href="#" class='list__item'>
-                    <li>contacts</li>
-                </a>
+                <li class='list__item item_active'><a href="#">home</a></li>
+                <li class='list__item'><a href="#">about us</a></li>
+                <li class='list__item'><a href="#">portfolio</a></li>
+                <li class='list__item'><a href="#">contacts</a></li>
             </ul>
         </div>
     </nav>
@@ -92,13 +84,101 @@
                 </article>
             </div>
         </section>
-        <section class="content__portfolio">portfolio section</section>
-        <section class="content__partners">partners section</section>
-        <section class="content__contacts">contacts section</section>
+        <section class="content__portfolio">
+            <section class="container">
+                <article class='potrfolio__title'>PORTFOLIO</article>
+                <article class='potrfolio__nav'>
+                    <ul class="portfolio__list">
+                        <li class='portfolio__list_item item_active'><a href="#">all</a></li>
+                        <li class='portfolio__list_item'><a href="#">web</a></li>
+                        <li class='portfolio__list_item'><a href="#">apps</a></li>
+                        <li class='portfolio__list_item'><a href="#">other</a></li>
+                    </ul>
+                </article>
+                <article class='potrfolio__imgs'>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                </article>
+                <button class="portfolio__btn">READ MORE</button>
+            </section>
+        </section>
+        <section class="content__partners">
+            <article class="container">
+                <article class="partners__title">
+                    Our partners
+                </article>
+                <article class="partners__card">
+                    <div class="partners__list">
+                        <img class='partners__list__item item_1' src="/img/partners/partner_1.png" alt="partner_1">
+                        <img class='partners__list__item item_2' src="/img/partners/partner_2.png" alt="partner_2">
+                        <img class='partners__list__item item_3' src="/img/partners/partner_3.png" alt="partner_3">
+                        <img class='partners__list__item item_4' src="/img/partners/partner_4.png" alt="partner_4">
+                    </div>
+                </article>
+            </article>
+        </section>
+        <section class="content__contacts">
+            <article class="container">
+                <article class="contact__title">
+                    contact
+                </article>
+                <article class="contact__orders">
+                    <form action="#" class="contact__form">
+                        <div class="contact__nameAndMail">
+                            <div class='contact__form__name'>
+                                <label for="contact_name">YOUR NAME</label>
+                                <br>
+                                <input type="text" name='contact_name' id="contact_name" class="mt_19" placeholder="Введите имя...">
+                            </div>
+                            <div class='contact__form__email'>
+                                <label for="contact_email">YOUR E-MAIL</label>
+                                <br>
+                                <input type="email" name='contact_email' id="contact_email" class="mt_19" placeholder="Введите эл.почту...">
+                            </div>
+                        </div>
+                        <div class='contact__form__message'>
+                            <label for="contact__message">MESSAGE</label>
+                            <br>
+                            <textarea name="contact__message" id="contact__message" placeholder="Введите сообщение..." class="mt_19"></textarea>
+                        </div>
+                        <button class="contact__btn">send</button>
+                    </form>
+                    <div class="contact__present">
+                        <div class="contact__present_text">Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help.</div>
+                        <div class="contact__present_name">
+                            <strong>Postma Elena</strong>
+                        </div>
+                        <div class="contact__present_socials">
+                            <div class="contact__fb present__icons">
+                            </div>
+                            <div class="contact__in present__icons">
+                            </div>
+                            <div class="contact__vk present__icons"></div>
+                        </div>
+                        <div class="contact__present_mail">e-mail: <strong>postma.elena@gmail.com</strong></div>
+                    </div>
+                </article>
+            </article>
+        </section>
     </main>
 
     <footer class="footer">
-        footer
+        <section class="container">
+            <section class="footer__logo"></section>
+            <section class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li class='footer__item footer_item_1'><a href="#">HOME</a></li>
+                    <li class='footer__item footer_item_2'><a href="#">Facebook</a></li>
+                    <li class='footer__item footer_item_3'><a href="#">Linkedin</a></li>
+                    <li class='footer__item footer_item_4'><a href="#">Contact</a></li>
+                </ul>
+            </section>
+            <section class="footer__copyright">© 2020. All Rights Reserved</section>
+        </section>
     </footer>
 </body>
 
