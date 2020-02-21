@@ -1,0 +1,92 @@
+@import 'nullstyle.scss';
+@import 'fonts.scss';
+
+$color_1:#273d46;
+$fw400: 400;
+
+@mixin styleTextTop($fs, $lh, $cl, $mt,$fw) {
+    font-size: $fs;
+    line-height: $lh;
+    color: $cl;
+		margin-top: $mt;
+		font-weight: $fw;
+}
+
+@mixin blockSize($w,$h) {
+	width: $w;
+	height: $h;
+}
+
+body {
+    background: url('../img/diagonali.png') no-repeat 40% 180px #e8e8e8;
+    max-width: 100%;
+    min-height: 1700px;
+		font-family: 'ArialMT';
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+		width: 50%;
+		h1 {
+			@include styleTextTop(14px,40px,$color_1,168px,$fw400);
+			opacity: 0.6;
+			text-transform: uppercase;
+			letter-spacing: 0.2em;
+		}
+		h2 {
+			font-family: 'TimesNewPSMT';
+			@include styleTextTop(36px,50px,$color_1,28px,$fw400)
+		}
+		p{
+			@include styleTextTop(24px,40px,$color_1,37px,$fw400);
+			opacity: 0.8;
+			font-family: 'TimesNewPSMT';
+			text-align: left;
+			padding: 0 20px;
+		}
+		.list {
+			margin-top: 64px;
+			.list__item {
+				@include styleTextTop(20px,36px,$color_1,0,$fw400);
+				background: url('../img/check_icon.png') 0 5px no-repeat;
+				background-size: 25px 19px;
+				text-align: left;
+				padding-left: 30px;
+			}
+			.item_2 {
+				color: #80b7b3;
+			}
+			.item_4 {
+				opacity: 0.3;
+				text-decoration: line-through;
+			}
+		}
+		
+	
+		.btn_submit {
+			@include styleTextTop(14px,1,#fff,65px,700);
+			@include blockSize(200px,50px);
+			display: block;
+			box-shadow: 3px 5px 40px 0px rgba(127, 183, 179, 0.54);
+			border-radius: 30px;
+			text-transform: uppercase;
+			letter-spacing: 0.2em;
+			background: #80B7B3;
+		}
+}
+
+.wrapper_img{
+	@include blockSize(835px,555px);
+	box-shadow: 7px 13px 65px 0px rgba(15, 15, 16, 0.15);
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 20px;
+	background: url('../img/centr_bg.png') no-repeat center;
+	background-size: cover;
+}
+
+
+
+

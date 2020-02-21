@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+h1 {
+  font-style: 100px;
+}
+
+@font-face {
+  font-family: ArialMT;
+  src: url("../css_5/fonts/arialmt.ttf");
+}
+@font-face {
+  font-family: TimesNewPSMT;
+  src: url("../css_5/fonts/timesnewromanpsmt.ttf");
+}
+body {
+  background: url("../img/diagonali.png") no-repeat 40% 180px #e8e8e8;
+  max-width: 100%;
+  min-height: 1700px;
+  font-family: "ArialMT";
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+.wrapper h1 {
+  font-size: 14px;
+  line-height: 40px;
+  color: #273d46;
+  margin-top: 168px;
+  font-weight: 400;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.wrapper h2 {
+  font-family: "TimesNewPSMT";
+  font-size: 36px;
+  line-height: 50px;
+  color: #273d46;
+  margin-top: 28px;
+  font-weight: 400;
+}
+.wrapper p {
+  font-size: 24px;
+  line-height: 40px;
+  color: #273d46;
+  margin-top: 37px;
+  font-weight: 400;
+  opacity: 0.8;
+  font-family: "TimesNewPSMT";
+  text-align: left;
+  padding: 0 20px;
+}
+.wrapper .list {
+  margin-top: 64px;
+}
+.wrapper .list .list__item {
+  font-size: 20px;
+  line-height: 36px;
+  color: #273d46;
+  margin-top: 0;
+  font-weight: 400;
+  background: url("../img/check_icon.png") 0 5px no-repeat;
+  background-size: 25px 19px;
+  text-align: left;
+  padding-left: 30px;
+}
+.wrapper .list .item_2 {
+  color: #80b7b3;
+}
+.wrapper .list .item_4 {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+.wrapper .btn_submit {
+  font-size: 14px;
+  line-height: 1;
+  color: #fff;
+  margin-top: 65px;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  display: block;
+  box-shadow: 3px 5px 40px 0px rgba(127, 183, 179, 0.54);
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background: #80B7B3;
+}
+
+.wrapper_img {
+  width: 835px;
+  height: 555px;
+  box-shadow: 7px 13px 65px 0px rgba(15, 15, 16, 0.15);
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 20px;
+  background: url("../img/centr_bg.png") no-repeat center;
+  background-size: cover;
+}
